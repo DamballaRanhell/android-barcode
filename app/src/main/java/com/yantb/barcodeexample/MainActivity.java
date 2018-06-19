@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {//
+            public void onClick(View v) {
                 IntentIntegrator integrator = new IntentIntegrator(activity);
                 //integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
                 integrator.setPrompt("Escanear Producto");
